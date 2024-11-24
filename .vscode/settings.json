@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/6ba11f14-a01c-4df6-8401-9a585387206a/resourceGroups/my-resource-handler/providers/Microsoft.Web/sites/LeonWebApp",
+    "appService.deploySubpath": "."
+}
