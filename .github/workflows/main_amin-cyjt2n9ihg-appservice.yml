@@ -62,4 +62,4 @@ jobs:
 
       - name: Start Bot application
         run: |
-          npm run start # Starts the bot after deployment
+          npm start # Starts the bot after deployment
