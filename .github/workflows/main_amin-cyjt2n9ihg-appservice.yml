@@ -59,3 +59,8 @@ jobs:
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F27062202A9A4F339BF47AB89AAF9810 }}
+
+      - name: Start Bot application
+        run: |
+          npm install # Ensures all dependencies are installed
+          npm run start # Starts the bot after deployment
