@@ -62,5 +62,4 @@ jobs:
 
       - name: Start Bot application
         run: |
-          npm install # Ensures all dependencies are installed
           npm run start # Starts the bot after deployment
